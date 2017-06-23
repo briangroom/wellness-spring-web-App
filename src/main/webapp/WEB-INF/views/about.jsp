@@ -51,7 +51,7 @@
 		<br>
 		<div class="text-center">
 			<div class="text-success">
-				<h3 class="panel-title">About Wellness Club</h3>
+				<h3 class="panel-title">About Gettin' Hitched Website</h3>
 				<br>
 			</div>
 

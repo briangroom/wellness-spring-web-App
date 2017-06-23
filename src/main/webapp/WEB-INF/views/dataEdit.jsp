@@ -51,7 +51,7 @@
 		<div class="col-lg-8 col-lg-offset-3">
 			<div>
 			
-			    <h1 style="color: #008000">Wellness club Data entry</h1>
+			    <h1 style="color: #008000">Gettin' Hitched Data entry</h1>
 				
 				<h2 class="text-success" >${message} </h2>				
 				<h2 class="text-danger" >${error} </h2>

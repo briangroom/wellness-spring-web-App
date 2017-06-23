@@ -52,7 +52,7 @@
 	<div class="container">
 		 
 			<div>
-				<h1 style="color: #008000">Welcome to wellness club</h1>
+				<h1 style="color: #008000">Welcome to thr Gettin' Hitched Website</h1>
 				<h3 style="color: #008000">${msg} </h3>
 				<h2 style="color: #008000">${message}</h2>
 				<h2 style="color: #008000">${success} </h2>
@@ -69,7 +69,7 @@
 					<div class="col-lg-5">
 						<form id="myForm" action="newlogin" method="post" class="bs-example form-horizontal">
 							<fieldset>
-								<legend>New wellness club login </legend><br>								
+								<legend>New Gettin' Hitched  login </legend><br>								
 								
 								<div class="form-group">
 									<label for="userNameInput" class="col-lg-3 control-label">Email</label>

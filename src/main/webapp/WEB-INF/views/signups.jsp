@@ -59,7 +59,7 @@
 		<div class="col-lg-8 col-lg-offset-3">
 			<div>
 			
-			<h1 style="color: #008000">Wellness Registration </h1>
+			<h1 style="color: #008000">Gettin' Hitched Registration </h1>
 			    <c:if test="${empty error}">
 			    
 				<c:if test="${empty message}">
@@ -68,7 +68,7 @@
 				</c:if>
 				<h2>				
 				<c:if test="${not empty message}">
-				<h1 style="color: #008000">Wellness Registration Success</h1>
+				<h1 style="color: #008000">Gettin' Hitched Registration Success</h1>
 				<div class="text-success">
 				<h2 style="color: #008000">${message} <a href="login">Login</a></h2>
 				</div>						

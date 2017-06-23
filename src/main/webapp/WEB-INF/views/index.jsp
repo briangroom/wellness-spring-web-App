@@ -28,7 +28,7 @@
 	
   </head>
   <body>
-	<header style="background-color: #DAF7A6;">		
+	<header style="background-color: lightblue;">		
 		<div class="navigation">
 				<div class="container">					
 					<div class="navbar-header">
@@ -71,56 +71,31 @@
 	<div class="slider">
 		<div class="img-responsive">
 			<ul class="bxslider">				
-				<li><img src="${contextPath}/resources/images/slider/gym.jpg" style="width:1000px;height:350px;" alt=""/></li>								
-				<li><img src="${contextPath}/resources/images/slider/gym3.jpg" style="width:1000px;height:350px;" alt=""/></li>			
+				<li><img src="${contextPath}/resources/images/slider/wedding1.jpg" style="width:1500px;height:550px;" alt=""/></li>								
+				<li><img src="${contextPath}/resources/images/slider/wedding2.jpg" style="width:1500px;height:550px;" alt=""/></li>			
+				<li><img src="${contextPath}/resources/images/slider/wedding3.jpg" style="width:1500px;height:550px;" alt=""/></li>								
+				<li><img src="${contextPath}/resources/images/slider/wedding4.jpg" style="width:1500px;height:550px;" alt=""/></li>			
+				<li><img src="${contextPath}/resources/images/slider/wedding5.png" style="width:1500px;height:550px;" alt=""/></li>			
+				<li><img src="${contextPath}/resources/images/slider/wedding6.jpg" style="width:1500px;height:550px;" alt=""/></li>			
+				<li><img src="${contextPath}/resources/images/slider/wedding7.jpg" style="width:1500px;height:550px;" alt=""/></li>			
+				<li><img src="${contextPath}/resources/images/slider/wedding8.jpg" style="width:1500px;height:550px;" alt=""/></li>			
+				<li><img src="${contextPath}/resources/images/slider/wedding9.jpg" style="width:1500px;height:550px;" alt=""/></li>			
+				<li><img src="${contextPath}/resources/images/slider/wedding10.jpg" style="width:1500px;height:550px;" alt=""/></li>			
 			</ul>
 		</div>
 		
-		
     </div>
     
-	<div class="container">	
-		<div id="show" class="collapse">
-		<form action="bmi" method="post" style="color: #008000">	                                   
-                     <div class="col-md-2">
-                           <div class="form-group">
-                                    <select required name="system" id="system" class="form-control input-sm"> 	 
-                                                  <option value="metric">Metric</option>
-                                                  <option value="imperial" selected>Imperial</option> 
-                                                  <option value="Select Units" selected>${m}</option>                                             
-                                                 </select>
-                                     <label for="imperial" id="sy">Select System</label><br>
-                              <input type="text"  id="w" name="w" value="${w}" class="form-control input-sm" placeholder="Weight" ><label for="wt" id="wt">${wt}</label>
-                              <input type="text"  id="h" name="h" value="${h}" class="form-control input-sm" placeholder="height" ><label for="ht" id="ht">${ht}</label>						  
-                            <br>
-                           <button type="submit" name="submit" id="submit" class="btn btn-primary" >BMI</button>                           
-                           <a href="index" class="btn btn-primary"><i class="glyphicon glyphicon-refresh"></i> Refresh</a>
-                           
-                          </div>
-                      </div>                       
-                 </form>
-           </div>
-           
          <div class="text-center">
 			<h3 class="text-info">
-			<a class="btn btn-primary" href="signups">Sign up  </a>
+			<a class="btn btn-primary" href="signups">Gettin Started </a>
 			<a class="btn btn-primary" href="login">Login  </a>
-	        <a type="button" class="btn btn-primary" data-toggle="collapse" data-target="#show">Calculate BMI</a>
 			</h3>
-			              <h3 style="color: #FF0000">${error}</h3> <h3 style="color: #008000">${success}</h3>  
-                                  <h3 style="color: #008000">
-                                  ${welcome}
-                                  </h3>
-                                  <h3 style="color: #008000">    
-                                   ${bmi} ${status}                       
-                                  </h3>    
-			 
 		</div>			
-                            
     
      </div>
 		
- <footer  style="background-color: #DAF7A6; position: fixed; bottom:0;width:100%;" >						
+ <footer  style="background-color: lightblue; position: fixed; bottom:0;width:100%;" >						
 				<div class="col-md-5 col-md-offset-5">
 				<div class="menu">
 							<ul class="nav nav-tabs" role="tablist">

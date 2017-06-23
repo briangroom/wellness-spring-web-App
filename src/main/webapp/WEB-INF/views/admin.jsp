@@ -91,7 +91,7 @@
 			</c:when>
 			<c:otherwise>
 				<div>
-					<h1>Wellness Club Administration Panel</h1>
+					<h1>Gettin' Hitched Administration Panel</h1>
 					<p>${msg}</p>
 					<h2>${message}</h2>
 					<h2>${success}</h2>

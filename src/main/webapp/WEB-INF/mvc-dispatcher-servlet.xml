@@ -9,7 +9,7 @@
 	<!-- Specifying base package of the Components like Controller, Service, 
 		DAO -->
 	<context:component-scan
-		base-package="com.wellness" />	
+		base-package="com.hitched" />	
 	
 	<mvc:annotation-driven />
 	
@@ -19,7 +19,7 @@
 	<!-- Getting Database properties -->
 	<context:property-placeholder location="classpath:application.properties" />
 	
-	<!-- <bean id="mailService" class="com.wellness.service.MailService">
+	<!-- <bean id="mailService" class="com.hitched.service.MailService">
          	<property name="mailSender" ref="mailSender"></property>
          </bean> -->
 
@@ -70,7 +70,7 @@
 				<prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
 			</props>
 		</property>
-		<property name="packagesToScan" value="com.wellness.model"></property>
+		<property name="packagesToScan" value="com.hitched.model"></property>
 	</bean>
 
 	<!-- Transaction -->

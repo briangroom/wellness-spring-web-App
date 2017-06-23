@@ -68,7 +68,7 @@
 	<div class="container">
 
 		<div>
-			<h1 style="color: #008000">Welcome to wellness club</h1>
+			<h1 style="color: #008000">Welcome to the Gettin' Hitched Website</h1>
 			<h3 style="color: #008000">${msg}
 				<br> ${msg2}
 			</h3>
@@ -78,7 +78,7 @@
 
 			<form id="myForm" action="testpost" method="post" class="bs-example form-horizontal">
 				<fieldset>
-					<legend class = "text-center">wellness club test </legend>
+					<legend class = "text-center">Gettin' Hitched test </legend>
 					<br>
 
 					<div class="form-group">
