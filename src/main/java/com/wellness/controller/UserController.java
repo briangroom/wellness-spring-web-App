@@ -651,7 +651,7 @@ public class UserController {
 		return Days.values();
 	}
 	
-	@ModelAttribute("users")
+	@ModelAttribute("addresses")
 	public List<Addresses> populateStates(Model model){
 		return locationService.getAllAddresses();
 	}

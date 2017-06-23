@@ -335,7 +335,7 @@ public class WellnessController {
 		    @RequestMapping(value = "/about", method = RequestMethod.GET)
 		    public String about(Model model) {
 		    	
-		    	model.addAttribute("users", locationService.getAllAddresses());
+		    	model.addAttribute("addresses", locationService.getAllAddresses());
 		    	
 		        return "about";
 		    }

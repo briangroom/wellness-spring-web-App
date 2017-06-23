@@ -16,7 +16,7 @@
 
 </head>
 <body>
-	<header style="background-color: #DAF7A6;">
+	<header style="background-color: #ff6600;">
 		<div class="navigation">
 			<div class="container">
 				<div class="navbar-header">
@@ -113,19 +113,19 @@
 		</div>
 	</div>
 
-	<div class="pull-right" style="background-color: lightgray">
+	<div class="pull-right" style="background-color: #DAF7A6">
 		<div class="text-info">
 			<h3>${success}<br> Club Locations and <br>Contact information
 			    <br> ____________________
 			</h3>
 		</div>
 	
-		<c:forEach items="${users}" var="item">
+		<c:forEach items="${addresses}" var="item">
 			<div>
-				<a title="Delete location"
+				<%-- <a title="Delete location"
 					href="deleteClub?id=<c:out value='${item.id}'/>"><span
-					class="glyphicon glyphicon-trash"></span> <c:out
-						value="${item.bname}" /></a> <br>
+					class="glyphicon glyphicon-trash"></span> --%>
+				<c:out value="${item.bname}" /></a> <br>
 				<c:out value="${item.address}" />
 				<br>
 				<c:out value="${item.city}, " />
